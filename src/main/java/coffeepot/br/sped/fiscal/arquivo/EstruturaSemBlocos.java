@@ -39,6 +39,7 @@ import coffeepot.bean.wr.annotation.Field;
 import coffeepot.bean.wr.annotation.Record;
 import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0000;
 import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0001;
+import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0002;
 import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0005;
 import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0015;
 import coffeepot.br.sped.fiscal.arquivo.bloco0.Reg0100;
@@ -88,6 +89,7 @@ import java.util.List;
 @Record(fields = {
     @Field(name = "reg0000"),
     @Field(name = "reg0001"),
+    @Field(name = "reg0002"),
     @Field(name = "reg0005"),
     @Field(name = "reg0015List"),
     @Field(name = "reg0100"),
@@ -178,6 +180,7 @@ public class EstruturaSemBlocos {
     //bloco 0
     private Reg0000 reg0000;
     private Reg0001 reg0001;
+    private Reg0002 reg0002;
     private Reg0005 reg0005;
     private List<Reg0015> reg0015List;
     private Reg0100 reg0100;

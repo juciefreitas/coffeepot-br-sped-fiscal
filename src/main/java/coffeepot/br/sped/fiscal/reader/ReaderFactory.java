@@ -56,7 +56,7 @@ public class ReaderFactory {
         reader.setDelimiter( '|' );
         reader.setRecordInitializator( "|" );
         reader.setRemoveRecordInitializator( true );
-        reader.setIgnoreUnknownRecords( false );
+        reader.setIgnoreUnknownRecords( true );
 
         // auto-detect version
         if (version == null){

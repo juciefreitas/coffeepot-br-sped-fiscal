@@ -39,6 +39,7 @@ import lombok.Setter;
 @Record(fields = {
     @Field(name = "reg0000"),
     @Field(name = "reg0001"),
+    @Field(name = "reg0002"),
     @Field(name = "reg0005"),
     @Field(name = "reg0015List"),
     @Field(name = "reg0100"),
@@ -59,6 +60,7 @@ public class Bloco0 {
 
     private Reg0000 reg0000;
 	private Reg0001 reg0001;
+    private Reg0002 reg0002;
     private Reg0005 reg0005;
     private List<Reg0015> reg0015List;
     private Reg0100 reg0100;
